@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons_juliolucio\ofxFlyingCamera\src\ofxFlyingCamera.cpp">
+      <Filter>addons\ofxFlyingCamera\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{23fdcced-a5cd-4225-8e4f-785c349c0144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{e2a57a23-218b-43c3-bdee-7a1f048418f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\cameras">
+      <UniqueIdentifier>{6ae62737-ca35-4bf8-8af9-7a8d893bd7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\shaders">
+      <UniqueIdentifier>{8c2b9a03-5c65-4608-b91b-3da089ed4514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFlyingCamera">
+      <UniqueIdentifier>{8e0c335b-8ee9-42e0-9272-412215b699fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFlyingCamera\src">
+      <UniqueIdentifier>{c31abdb7-905b-45dd-bde9-5ce69dd3fe31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons_juliolucio\ofxFlyingCamera\src\ofxFlyingCamera.h">
+      <Filter>addons\ofxFlyingCamera\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

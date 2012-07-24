@@ -1,0 +1,9 @@
+version= 0.1
+cameraAngle= 25
+cameraFar=	 1000
+cameraNear=	 .1
+cameraCenter=	 0	0	0
+cameraUp=	 0	0	1
+cameraRadius=	260
+cameraTeta=	 0
+cameraFi=	 0
