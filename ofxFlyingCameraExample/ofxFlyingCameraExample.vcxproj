@@ -111,6 +111,13 @@
       <Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\cameras\camera01.cam" />
+    <None Include="bin\data\shaders\cameraTexturingMap.frag" />
+    <None Include="bin\data\shaders\cameraTexturingMap.vert" />
+    <None Include="bin\data\shaders\colorMap.frag" />
+    <None Include="bin\data\shaders\colorMap.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

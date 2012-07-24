@@ -22,6 +22,7 @@ void testApp::draw(){
 	/////////////////////////
 
 	camera.end();
+
 	camera.draw( 10,10, ofGetWidth() - 250 , ofGetHeight() - 100 );
 		 
 	ofSetHexColor( 0xffffff );
@@ -51,12 +52,11 @@ void testApp::mouseDragged(int x, int y, int button){
 	ofVec2f delta = ofVec2f( x , y ) - mousePosition;
 	mousePosition = ofVec2f( x , y );
 	if( button == 0 ){
-		camera.setDeltaCameraSphericalCoordinatesFi( delta.y / 10 );
-		camera.setDeltaCameraSphericalCoordinatesTeta( -delta.x / 10 );	
+
 	}
 
 	if( button == 1 || button == 2 ){
-		camera.setDeltaCameraSphericalCoordinatesRadius( - delta.y / 10 );
+		
 	}
 }
 //--------------------------------------------------------------

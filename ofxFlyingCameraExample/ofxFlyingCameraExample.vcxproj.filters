@@ -42,4 +42,21 @@
       <Filter>addons\ofxFlyingCamera\src</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\cameraTexturingMap.frag">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\cameraTexturingMap.vert">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\colorMap.frag">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\colorMap.vert">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="bin\data\cameras\camera01.cam">
+      <Filter>data\cameras</Filter>
+    </None>
+  </ItemGroup>
 </Project>
