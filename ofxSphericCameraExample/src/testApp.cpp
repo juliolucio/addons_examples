@@ -3,6 +3,7 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	camera.setup( "camera01.cam" );
+	camera.setDrawTrihedrum( true );
 }
 
 //--------------------------------------------------------------
@@ -15,8 +16,10 @@ void testApp::draw(){
 	camera.begin();
 	
 	ofSetHexColor( 0x6b90ac );
-	ofrender
+
+	//draw your geometries here
 	ofSphere( 10 );
+	/////////////////////////
 
 	camera.end();
 	camera.draw( 10,10, ofGetWidth() - 250 , ofGetHeight() - 100 );
